@@ -22,10 +22,12 @@ fieldnote<-read_csv(fieldnote_path)
 ```
 **4. Snapshot Japanに共通の設定ファイル(json)のパスを指定**
 ```
-setting_json_path<-"snapshot_japan_2023_deployments.json"
+setting_json_path<-"snapshot_japan_deployments.json"
 ```
-**5. サブプロジェクト名を指定**
+**5. 年、projectID, サブプロジェクト名を指定**
 ```
+year<-2023
+project_id<-2006510 #Snapshot Japan 2023の場合（[Project]->[Details]から確認できます）
 subproject_name<-"Fukushima_Forest_NIES"
 ```
 **6. templateを作成**
@@ -38,6 +40,8 @@ out<-wi_make_deployments(deployment_id=fieldnote$locationID,  #deploymentID（�
                          end_date=fieldnote$endDT,            #終了日
                          camera_id=fieldnote$cameraID,        #カメラ番号(これも自動的にサブプロジェクト名を結合して固有名に変換)
                          subproject_name=subproject_name,     #サブプロジェクト名
+                         project_id=project_id,               #projectID
+                         year=year,                           #年
                          setting_json_path=setting_json_path) #設定ファイルのパス
 ```
 **7. csv書き出し＆Wildlife Insightsへの登録**

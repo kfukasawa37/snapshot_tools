@@ -8,6 +8,7 @@ wi_make_deployments<-
            start_date,
            end_date,
            camera_id,
+           year,
            quiet_period=0,
            camera_functioning="Camera Functioning",
            project_id="",
@@ -53,7 +54,7 @@ wi_make_deployments<-
     }
     
     #making deployment_id and placename unique
-    deployment_id<-paste0(project_name,"_",subproject_name,"_",deployment_id)
+    deployment_id<-paste0(project_name,"_",year,"_",subproject_name,"_",deployment_id)
     placename<-paste0(subproject_name,"_",placename)
     camera_id<-paste0(subproject_name,"_",camera_id)
     

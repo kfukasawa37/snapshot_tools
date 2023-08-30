@@ -11,7 +11,13 @@ fieldnote<-read_csv(fieldnote_path)
 view(fieldnote)
 
 ###Snapshot Japanに共通の設定ファイル
-setting_json_path<-"snapshot_japan_2023_deployments.json"
+setting_json_path<-"snapshot_japan_deployments.json"
+
+###year
+year<-2023
+
+###projectID（年によって異なります。[Project]->[Details]から確認できます）
+project_id<-2006510 #Snapshot Japan 2023の場合
 
 ###サブプロジェクト名
 subproject_name<-"Fukushima_Forest_NIES"
@@ -25,6 +31,8 @@ out<-wi_make_deployments(deployment_id=fieldnote$locationID,
                          end_date=fieldnote$endDT,
                          camera_id=fieldnote$cameraID,
                          subproject_name=subproject_name,
+                         project_id=project_id,
+                         year=year,
                          setting_json_path=setting_json_path)
 
 view(out)
