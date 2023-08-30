@@ -15,6 +15,11 @@ fieldnote$startTime<-as_hms(fieldnote$startTime)
 
 fieldnote$startDT<-paste(fieldnote$startDate,fieldnote$startTime)
 
+######
+##要修正
+######
+fieldnote$endDT<-"2023-10-30 15:00:00"
+
 location<-st_read(location_path)
 location$long<-location%>%st_coordinates()%>%as_tibble%>%select(X)
 location$lat<-location%>%st_coordinates()%>%as_tibble%>%select(Y)
