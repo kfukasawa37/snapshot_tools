@@ -1,7 +1,7 @@
 # snapshot_tools
 R Tools for easy implementation of Snapshot.
 
-Snapshot Japanへの適用を念頭に、Wildlife InsightsにおけるBulk deployment upload(https://www.wildlifeinsights.org/get-started/manage-metadata/deployments#bulk-deployment-uploads)に必要なtemplateを簡便に作成するR関数を作成しました。
+Snapshot Japanへの適用を念頭に、Wildlife InsightsにおけるBulk deployment upload(https://www.wildlifeinsights.org/get-started/manage-metadata/deployments#bulk-deployment-uploads )に必要なtemplateを簡便に作成するR関数を作成しました。
 
 **使い方**
 example_snapshot_tools.rを参照。
