@@ -9,6 +9,7 @@ example_snapshot_tools.rを参照。
 **1. Rパッケージ読み込み**
 ```
 library(tidyverse)
+library(jsonlite)
 ```
 **2. 関数ソースコード読み込み**
 ```
