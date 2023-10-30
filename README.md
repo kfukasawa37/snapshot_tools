@@ -10,14 +10,15 @@ example_snapshot_tools.rを参照。
 ```
 library(tidyverse)
 library(jsonlite)
+library(devtools)
 ```
 **2. 関数ソースコード読み込み**
 ```
-source("functions_snapshot_tools.r")
+source_url("https://raw.githubusercontent.com/kfukasawa37/snapshot_tools/main/functions_snapshot_tools.r")
 ```
 **3. 地点名、位置、日時等を含むフィールドノートファイル読み込み**
 ```
-fieldnote_path<-"fieldnote_snapshot_2023_nies.csv"
+fieldnote_path<-"fieldnote_snapshot_2023_nies.csv"  #ご自分のフィールドノートのファイル名を指定してください。
 fieldnote<-read_csv(fieldnote_path)
 ```
 **4. Snapshot Japanに共通の設定ファイル(json)のパスを指定**
