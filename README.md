@@ -57,6 +57,7 @@ write_csv(out,outfile)
 1. Wildlife Insightsでは、緯度経度の小数点以下桁数は8桁が上限になるため、出力の際はそれに合わせて値を丸めています。
 2. すでにSubproject名がProjectに登録されている場合、Bulk uploadで登録したdeploymentのSubproject欄が空欄になることがあるようです。その場合、手動で選択するか、一度SubprojectとDeploymentsを消して再度やり直して下さい。
 3. Bulk uploadで一度にdeploymentsを登録することはできても、それらを一度に削除することはできません。多数の地点を登録する場合は、事前に少ない地点数のテストデータをアップロードしてふるまいをチェックすることをお勧めします。
+4. 撮影後休止時間quiet_periodは整数しか受け付けないため、round()で四捨五入した値を出力します。
 
 
 

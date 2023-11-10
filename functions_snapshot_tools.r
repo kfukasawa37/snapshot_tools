@@ -80,7 +80,7 @@ wi_make_deployments<-
            feature_type=feature_type,
            feature_type_methodology=feature_type_methodology,
            camera_id=camera_id,
-           quiet_period=quiet_period,
+           quiet_period=round(quiet_period),
            camera_functioning=camera_functioning,
            sensor_height=sensor_height,
            height_other=height_other,
