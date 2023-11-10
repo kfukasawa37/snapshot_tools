@@ -21,9 +21,9 @@ source_url("https://raw.githubusercontent.com/kfukasawa37/snapshot_tools/main/fu
 fieldnote_path<-"fieldnote_snapshot_2023_nies.csv"  #ご自分のフィールドノートのファイル名を指定してください。
 fieldnote<-read_csv(fieldnote_path)
 ```
-**4. Snapshot Japanに共通の設定ファイル(json)のパスを指定**
+**4. Snapshot Japanに共通の設定ファイル(json)のパスを指定(github上にある)**
 ```
-setting_json_path<-"snapshot_japan_deployments.json"
+setting_json_path<-"https://raw.githubusercontent.com/kfukasawa37/snapshot_tools/main/snapshot_japan_deployments.json"
 ```
 **5. 年、projectID, サブプロジェクト名を指定**
 ```
