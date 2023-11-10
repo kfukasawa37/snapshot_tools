@@ -1,13 +1,13 @@
-number,locationID,setupBy,cameraID,SDcardID,detectionDistance,retrieveBy,endDate,endTime,abortField,invalidField,deploymentComments,startDT,endDT,long,lat
-10,C15,Keita Fukasawa/Hirofumi Ouchi,174,340,NA,NA,NA,NA,NA,NA,NA,2023-08-22 13:35:00,2023-10-30 15:00:00,140.80628593239936,37.611886081312115
-11,C16,Keita Fukasawa/Hirofumi Ouchi,173,341,NA,NA,NA,NA,NA,NA,NA,2023-08-22 14:35:00,2023-10-30 15:00:00,140.75867884545698,37.58469840851858
-12,C17,Keita Fukasawa/Hirofumi Ouchi,177,339,NA,NA,NA,NA,NA,NA,NA,2023-08-22 12:37:00,2023-10-30 15:00:00,140.79366299990133,37.58132100077884
-14,C19,Keita Fukasawa/Hirofumi Ouchi,171,384,NA,NA,NA,NA,NA,NA,NA,2023-08-22 15:18:00,2023-10-30 15:00:00,140.72531485245034,37.57579991168615
-15,C21,Keita Fukasawa/Hirofumi Ouchi,191,342,NA,NA,NA,NA,NA,NA,NA,2023-08-22 16:06:00,2023-10-30 15:00:00,140.7070640027488,37.55796739877062
-16,C22,Keita Fukasawa/Hirofumi Ouchi,159,337,NA,NA,NA,NA,NA,NA,NA,2023-08-22 11:35:00,2023-10-30 15:00:00,140.83062385333164,37.555415249945
-17,C23,Keita Fukasawa/Hirofumi Ouchi,175,344,NA,NA,NA,NA,NA,NA,NA,2023-08-23 11:15:00,2023-10-30 15:00:00,140.7760033795491,37.549345521810416
-18,C24,Keita Fukasawa/Hirofumi Ouchi,166,345,NA,NA,NA,NA,NA,NA,NA,2023-08-23 11:44:00,2023-10-30 15:00:00,140.739462902975,37.54117424487473
-19,C25,Keita Fukasawa/Hirofumi Ouchi,165,343,NA,NA,NA,NA,NA,NA,NA,2023-08-23 10:55:00,2023-10-30 15:00:00,140.8061514360262,37.53782274071245
-20,C27,Keita Fukasawa/Hirofumi Ouchi,170,346,NA,NA,NA,NA,NA,NA,NA,2023-08-23 13:15:00,2023-10-30 15:00:00,140.6963003941382,37.512145071574146
-37,CX01,Keita Fukasawa/Hirofumi Ouchi,169,338,NA,NA,NA,NA,NA,NA,NA,2023-08-22 10:55:00,2023-10-30 15:00:00,140.81554122087047,37.562181240054734
-39,CX04,Keita Fukasawa/Hirofumi Ouchi,168,347,NA,NA,NA,NA,NA,NA,NA,2023-08-23 14:05:00,2023-10-30 15:00:00,140.6786418348455,37.472379202580974
+number,locationID,setupBy,cameraID,quiet_period,SDcardID,detectionDistance,retrieveBy,deploymentComments,abort,invalid,startDT,endDT,long,lat
+10,C15,Keita Fukasawa/Hirofumi Ouchi,174,0.6,340,NA,Yui Ogawa/Nao Kumada,Multiple shots per trigger did not work.,0,0,2023-08-22 13:35:00,2023-10-24 13:05:00,140.80628593239936,37.611886081312115
+11,C16,Keita Fukasawa/Hirofumi Ouchi,173,0.6,341,NA,Yui Ogawa/Nao Kumada,Multiple shots per trigger did not work.,0,0,2023-08-22 14:35:00,2023-10-23 14:29:00,140.75867884545698,37.58469840851858
+12,C17,Keita Fukasawa/Hirofumi Ouchi,177,0.6,339,NA,Yui Ogawa/Nao Kumada,Multiple shots per trigger did not work.,0,0,2023-08-22 12:37:00,2023-10-23 13:21:00,140.79366299990133,37.58132100077884
+14,C19,Keita Fukasawa/Hirofumi Ouchi,171,0.6,384,NA,Yui Ogawa/Nao Kumada,Multiple shots per trigger did not work.,0,0,2023-08-22 15:18:00,2023-10-23 15:32:00,140.72531485245034,37.57579991168615
+15,C21,Keita Fukasawa/Hirofumi Ouchi,191,0.6,342,NA,Akira Yoshioka/Hirofumi Ouchi,Multiple shots per trigger did not work.,0,0,2023-08-22 16:06:00,2023-10-23 15:05:00,140.7070640027488,37.55796739877062
+17,C23,Keita Fukasawa/Hirofumi Ouchi,175,0.6,344,NA,Akira Yoshioka/Hirofumi Ouchi,Multiple shots per trigger did not work.,0,0,2023-08-23 11:15:00,2023-10-23 14:16:00,140.7760033795491,37.549345521810416
+18,C24,Keita Fukasawa/Hirofumi Ouchi,166,0.6,345,NA,Yui Ogawa/Nao Kumada,Multiple shots per trigger did not work.,0,0,2023-08-23 11:44:00,2023-10-23 16:12:00,140.739462902975,37.54117424487473
+19,C25,Keita Fukasawa/Hirofumi Ouchi,165,0.6,343,NA,Akira Yoshioka/Hirofumi Ouchi,Multiple shots per trigger did not work.,0,0,2023-08-23 10:55:00,2023-10-23 13:25:00,140.8061514360262,37.53782274071245
+20,C27,Keita Fukasawa/Hirofumi Ouchi,170,0.6,346,NA,Keita Fukasawa/Satoshi Aoki/Kahoko Tochigi,Multiple shots per trigger did not work.,0,0,2023-08-23 13:15:00,2023-10-26 12:00:00,140.6963003941382,37.512145071574146
+37,CX01,Keita Fukasawa/Hirofumi Ouchi,169,0.6,338,NA,Yui Ogawa/Nao Kumada,"8.12μsv
+Multiple shots per trigger did not work.",0,0,2023-08-22 10:55:00,2023-10-23 12:23:00,140.81554122087047,37.562181240054734
+39,CX04,Keita Fukasawa/Hirofumi Ouchi,168,0.6,347,NA,Keita Fukasawa/Satoshi Aoki/Kahoko Tochigi,Multiple shots per trigger did not work.,0,0,2023-08-23 14:05:00,2023-10-26 11:05:00,140.6786418348455,37.472379202580974

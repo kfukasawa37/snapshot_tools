@@ -1,5 +1,6 @@
 library(tidyverse)
 library(jsonlite)
+library(devtools)
 
 source("functions_snapshot_tools.r")
 
@@ -33,7 +34,7 @@ out<-wi_make_deployments(deployment_id=fieldnote$locationID,
                          subproject_name=subproject_name,
                          project_id=project_id,
                          year=year,
-                         quiet_period=1,
+                         quiet_period=fieldnote$quiet_period,
                          setting_json_path=setting_json_path)
 
 view(out)

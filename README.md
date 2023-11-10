@@ -40,6 +40,7 @@ out<-wi_make_deployments(deployment_id=fieldnote$locationID,  #deploymentID（�
                          start_date=fieldnote$startDT,        #開始日("yyyy-mm-dd hh:mm:ss"形式、日本時間)
                          end_date=fieldnote$endDT,            #終了日
                          camera_id=fieldnote$cameraID,        #カメラ番号(これも自動的にサブプロジェクト名を結合して固有名に変換)
+                         quiet_period=quiet_period,           #撮影後停止時間
                          subproject_name=subproject_name,     #サブプロジェクト名
                          project_id=project_id,               #projectID
                          year=year,                           #年
